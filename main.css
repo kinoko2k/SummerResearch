@@ -19,28 +19,28 @@
     position: absolute;
   }
 
-#wrapper{
+#blur{
 margin:0 auto;
 padding:0 1%;
 width:98%;
 position:relative;
 }
 
-.gridWrapper{
+.gridblur{
 padding-bottom:20px;
 overflow: hidden;
 }
 
-* html .gridWrapper{height:1%;}
+* html .gridblur{height:1%;}
 
-.gridWrapper img{
+.gridblur img{
 max-width:100%;
 height:auto;
 }
 
 /* PC用 */
 @media only screen and (min-width:960px){	
-	#wrapper,.inner{
+	#blur,.inner{
 	width:940px;
 	padding:0;
 	}
@@ -48,7 +48,7 @@ height:auto;
 	#wrapper{padding-bottom:20px;}
 	
 	/* グリッド全体 */
-	.gridWrapper{
+	.gridblur{
 	width:960px;
 	margin:0 0 0 -20px;
 	}
