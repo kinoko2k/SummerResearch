@@ -1,1 +1,25 @@
+.blur{
+    color: ffffff;
+    text-align: center;
+    font-size: 32px;
+    background:url(images/top.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .blur:before{
+    content: '';
+    background: inherit;
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+    filter: blur(50px);
+    position: absolute;
+  }
 
+.image-vw {
+    width : 100vw ; 
+    height : 100vw;
+}
