@@ -23,3 +23,17 @@
     width : 100vw ; 
     height : 100vw;
 }
+
+#image-vw{
+margin:0 auto;
+padding:0 1%;
+width:98%;
+position:relative;
+}
+
+.gridimage-vw{
+padding-bottom:20px;
+overflow: hidden;
+}
+
+* html .gridimage-vw{height:1%;}
