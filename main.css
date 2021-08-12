@@ -19,21 +19,37 @@
     position: absolute;
   }
 
-.image-vw {
-    width : 100vw ; 
-    height : 100vw;
-}
-
-#image-vw{
+#wrapper{
 margin:0 auto;
 padding:0 1%;
 width:98%;
 position:relative;
 }
 
-.gridimage-vw{
+.gridWrapper{
 padding-bottom:20px;
 overflow: hidden;
 }
 
-* html .gridimage-vw{height:1%;}
+* html .gridWrapper{height:1%;}
+
+.gridWrapper img{
+max-width:100%;
+height:auto;
+}
+
+/* PC用 */
+@media only screen and (min-width:960px){	
+	#wrapper,.inner{
+	width:940px;
+	padding:0;
+	}
+	
+	#wrapper{padding-bottom:20px;}
+	
+	/* グリッド全体 */
+	.gridWrapper{
+	width:960px;
+	margin:0 0 0 -20px;
+	}
+}
