@@ -3,4 +3,4 @@
 
 現在、VSCodeでがんばっています...
 
-https://riyaya1528.github.io/SummerResearch/index.html
+https://riyaya1528.github.io/SummerResearch/
